@@ -89,15 +89,18 @@ div#hooper > p {
     font-weight: bold;
 }
 
-
-
-
-
-
 /* FOOTER */
 .attribution { 
     font-size: 11px; text-align: center; 
 }
 .attribution a { 
     color: hsl(228, 100%, 19%); 
+}
+
+/* Mobible */
+@media (width: 450px) {
+    #container-header {
+        height: 450px;
+        width: 350px;
+    }
 }
